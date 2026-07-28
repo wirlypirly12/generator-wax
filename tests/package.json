@@ -1,0 +1,6 @@
+{
+  "name": "tests",
+  "scripts": {
+    "build": "lune run wax bundle input=default.project.json output=build/tests.luau env-name=WaxRuntime minify=true ci-mode=true"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "generator": "retain_lines",
+  "rules": [
+    "remove_comments",
+    "remove_spaces",
+    "remove_types",
+    "remove_unused_variable",
+    {
+      "rule": "rename_variables",
+      "include_functions": true
+    },
+    "compute_expression",
+    "remove_debug_profiling",
+    "remove_assertions"
+  ]
+}

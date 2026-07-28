@@ -1,0 +1,6 @@
+{
+  "name": "<%= name %>",
+  "scripts": {
+    "build": "lune run wax bundle input=default.project.json output=build/<%= name %>.luau env-name=<%= envName %> minify=<%= useDarklua %> ci-mode=true"
+  }
+}

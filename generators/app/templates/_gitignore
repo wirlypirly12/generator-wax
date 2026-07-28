@@ -1,0 +1,4 @@
+build/
+*.rbxl
+*.rbxlx
+node_modules/

@@ -1,0 +1,6 @@
+[tools]
+lune = "lune-org/lune@0.9"
+rojo = "rojo-rbx/rojo@7.4"
+<% if (useDarklua) { -%>
+darklua = "seaofvoices/darklua@0.13"
+<% } -%>
